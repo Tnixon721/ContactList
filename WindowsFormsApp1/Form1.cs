@@ -28,10 +28,7 @@ namespace ContactList
             sw.WriteLine(obj.Phone);
             sw.WriteLine(obj.Email);
 
-            for (int x = 0; x < phoneBook.Length;) ;
-            {
-                sw.WriteLine(phoneBook[x].FirstName);
-            }
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
